@@ -21,6 +21,11 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: rgb(181, 189, 80);
+}
+
 .header {
     background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
     padding: 20px;
@@ -43,10 +48,6 @@ body {
 .logo {
     height: 75px;
     width: 250px;
-}
-
-.nav {
-
 }
 
 .nav_list {
@@ -72,7 +73,7 @@ body {
                                 /* MAiN */
 
 .main {
-    /* border:  3px solid red;     */
+    margin-bottom: auto;  
 }
 
 .main_container {
@@ -127,12 +128,6 @@ body {
     color: rgb(109, 107, 96);
 }
 
-
-
-
-
-
-
                 /* FOOTER */
 
 .footer {
@@ -148,14 +143,20 @@ body {
 }
 
 .rss {
+    display: block;
     width: 121px;
     height: 45px;
-    background: url(./assets/rs_school_js.svg);
-    background-repeat: no-repeat;
+    background-image: url(./assets/rss.svg);
     background-size: contain;
-}
+    background-repeat: no-repeat;
+    }
 
 .git_link {
+    padding-left: 30px;
     text-decoration: none;
     color: black;
+    transition: color 0.2s linear;
 }
+.git_link:hover {
+    color: rgb(181, 189, 80);
+    }
