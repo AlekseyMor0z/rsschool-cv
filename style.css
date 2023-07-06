@@ -151,6 +151,7 @@ pre {
     background-image: url(./assets/rss.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    color: transparent;
     }
 
 .git_link {
