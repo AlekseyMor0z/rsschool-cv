@@ -1,4 +1,6 @@
 # Moroz Aleksey
+## Location 
+* __Belarus, Misnk__
 ## Contacts
 * __email:__ alexiusmoroz@gmail.com
 * __telegram:__ https://t.me/Aleksey_M0roz
