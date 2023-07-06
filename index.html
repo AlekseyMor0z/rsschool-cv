@@ -73,19 +73,17 @@
                     <details>
                     <summary>Click to show</summary>
                     <pre>
-                        <code>
-function myLanguages(results) {
+<code>function myLanguages(results) {
     let arr = [];
     let entries = Object.entries(results);
     let sort = entries.sort((a,b) => b[1] - a[1]);
     for (const [key, value] of entries) {
-        if (value >= 60) {
+        if (value &gt;= 60) {
         arr.push(key);
         }
     }
         return arr;
-    }
-                        </code>
+    }</code>
                     </pre>
                 </details>
                    
